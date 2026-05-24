@@ -1,0 +1,39 @@
+### 1. Başarılı Kayıt (POST)
+POST http://localhost:8082/api/students
+Content-Type: application/json
+Authorization: Basic YWRtaW46MTIzNDU2
+
+{
+  "firstName": "Ahmet",
+  "lastName": "Yılmaz",
+  "studentNumber": "101",
+  "department": "YBS"
+}
+
+### 2. Validation Testi: Boş İsim Gönderme (POST)
+POST http://localhost:8082/api/students
+Content-Type: application/json
+Authorization: Basic YWRtaW46MTIzNDU2
+
+{
+  "firstName": "",
+  "lastName": "Yılmaz",
+  "studentNumber": "102",
+  "department": "YBS"
+}
+
+### 3. Service Exception Testi: Aynı Numarayı Gönderme (POST)
+POST http://localhost:8082/api/students
+Content-Type: application/json
+Authorization: Basic YWRtaW46MTIzNDU2
+
+{
+  "firstName": "Mehmet",
+  "lastName": "Kaya",
+  "studentNumber": "101",
+  "department": "YBS"
+}
+
+### 4. Derived Query Testi: Bölüme Göre Getirme (GET)
+GET http://localhost:8082/api/students/department/YBS
+Authorization: Basic YWRtaW46MTIzNDU2
