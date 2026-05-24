@@ -25,13 +25,13 @@ public class StudentController {
         return studentService.getAllStudents();
     }
 
-    // Derived Query Method için yeni endpoint
+
     @GetMapping("/department/{department}")
     public List<Student> getStudentsByDepartment(@PathVariable String department) {
         return studentService.getStudentsByDepartment(department);
     }
 
-    // @Valid anotasyonu ile DTO doğrulaması devreye giriyor
+
     @PostMapping
     public ResponseEntity<Student> createStudent(@Valid @RequestBody StudentRequest request) {
         return ResponseEntity.status(HttpStatus.CREATED).body(studentService.createStudent(request));
