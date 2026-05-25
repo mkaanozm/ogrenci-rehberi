@@ -21,5 +21,6 @@ Proje 4 ana katmandan oluşmaktadır:
 2. **IntelliJ IDEA** veya herhangi bir **IDE** ile projeyi açın.
 3. **Maven** bağımlılıklarının yüklenmesini bekleyin ve `OgrenciRehberiApplication.java` dosyasını çalıştırın.
 4. Proje `http://localhost:8082` portunda ayağa kalkacaktır.
-5. Veri tabanı paneline erişmek için tarayıcıda `http://localhost:8082/h2-console` adresine gidin. (JDBC URL: `jdbc:h2:mem:rehberdb`, User: `sa`, Şifre: boş).
+5. Veri tabanı paneline erişmek için tarayıcıda `http://localhost:8082/h2-console` adresine gidin. (JDBC URL: `jdbc:h2:mem:rehberdb`, User: `kaan`, Şifre: kaan123).
 6. **API** erişimleri için `admin` ve `123456` şifresiyle **Basic Auth** kullanılmalıdır.
+7. Shopify benzeri websitesine gitme içinse http://localhost:8082 adresini kullanıp admin:123456 kullanıcı adıyla şifresini gireceksiniz.
