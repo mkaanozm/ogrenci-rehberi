@@ -1,4 +1,4 @@
-# Öğrenci Rehberi (Student Directory) - Yönetim Sistemi
+# Öğrenci Rehberi (Student Directory) -
 
 Bu proje, üniversite öğrencilerini listelemek ve yeni öğrencileri kayıt altına almak amacıyla geliştirilmiş bir **REST API** uygulamasıdır.
 
