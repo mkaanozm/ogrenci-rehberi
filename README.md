@@ -25,15 +25,15 @@ Proje 4 ana katmandan oluşmaktadır:
 6. **API** erişimleri için `admin` ve `123456` şifresiyle **Basic Auth** kullanılmalıdır.
 7. Shopify benzeri websitesine gitme içinse http://localhost:8082 adresini kullanıp admin:123456 kullanıcı adıyla şifresini gireceksiniz.
 8. Postman içinse Ekranın üst orta kısmında yer alan Overview sekmesinin hemen sağındaki + (artı) ikonuna tıkla.
-   Açılan yeni sekmede, soldaki kutucuğun GET olduğundan emin ol ve yanındaki uzun çubuğa http://localhost:8082/api/students adresini yapıştır.
-   Çubuğun hemen altındaki Authorization sekmesine tıkla, Type menüsünü aç ve Basic Auth seçeneğini işaretle.
-   Sağ tarafta beliren Username kutusuna admin, Password kutusuna 123456 yaz.
-   Sağ üstteki mavi Send butonuna bas ve alt tarafta 200 OK mesajıyla birlikte veri tabanındaki listemizin geldiğini gör.
-   Sol üstteki GET yazısına tıkla ve onu POST olarak değiştir.
-   Alt taraftaki sekmelerden Body olanına tıkla.
-   Hemen altındaki butonlardan raw seçeneğini işaretle.
-   En sağında beliren mavi Text yazısına tıkla ve onu JSON olarak değiştir.
-   Açılan büyük boş alana aşağıdaki kodu tamamen yapıştır ve mavi Send butonuna bas:
+Açılan yeni sekmede, soldaki kutucuğun GET olduğundan emin ol ve yanındaki uzun çubuğa http://localhost:8082/api/students adresini yapıştır.
+Çubuğun hemen altındaki Authorization sekmesine tıkla, Type menüsünü aç ve Basic Auth seçeneğini işaretle.
+Sağ tarafta beliren Username kutusuna admin, Password kutusuna 123456 yaz.
+Sağ üstteki mavi Send butonuna bas ve alt tarafta 200 OK mesajıyla birlikte veri tabanındaki listemizin geldiğini gör.
+Sol üstteki GET yazısına tıkla ve onu POST olarak değiştir.
+Alt taraftaki sekmelerden Body olanına tıkla.
+Hemen altındaki butonlardan raw seçeneğini işaretle.
+En sağında beliren mavi Text yazısına tıkla ve onu JSON olarak değiştir.
+Açılan büyük boş alana aşağıdaki kodu tamamen yapıştır ve mavi Send butonuna bas:
 
 JSON
 {
